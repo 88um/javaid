@@ -1,2 +1,4 @@
 # get-session-id
-Java
+
+
+Login and get your sessionid...in Java.
