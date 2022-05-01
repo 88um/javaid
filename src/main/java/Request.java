@@ -19,7 +19,7 @@ public class Request {
         clearScreen();
         if (!login()){print("\nLogin unsuccessful!");Thread.sleep(3000);System.exit(0);}
         if (!parseCookie()){print("Unable to get cookie data!");Thread.sleep(3000);System.exit(0);}
-        System.out.println("\nLogged In! Your session id is: "+sessionid);
+        print("\nLogged In! Your session id is: "+sessionid);
         Thread.sleep(4000);}
 
     public static void clearScreen() {  //clears the console
